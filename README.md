@@ -9,10 +9,13 @@ What the code does:
 - Loads the dataset from CSV files
 - Prepares and cleans the data
 - Changes the labels into two classes:
+  
         - 0 = benign traffic
         - 1 = attack traffic
+  
 - Splits the data into training 70%, validation 15% and test sets 15 %, 
 - Trains and evaluates three models:
+  
         - Random Forest
         - Isolation Forest
         - Hybrid model
